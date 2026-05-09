@@ -1,19 +1,1 @@
-body.dark-mode {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Helvetica Neue', sans-serif;
-}
 
-header {
-    background-color: #111;
-    padding: 20px;
-    border-bottom: 1px solid #333;
-}
-
-.product-card {
-    border: 1px solid #333;
-    padding: 20px;
-    background-color: #0a0a0a;
-    color: white;
-}
-/* Agrega más estilos para replicar la estructura de palantir.com */
