@@ -3,44 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethicus | Inteligencia Artificial Humana</title>
+    <title>Ethicus | Ontología y Decisiones Críticas</title>
     <style>
-        :root { --bg: #000; --text: #fff; --accent: #333; }
-        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
-        nav { padding: 2rem; display: flex; justify-content: space-between; border-bottom: 1px solid var(--accent); }
-        .hero { padding: 8rem 2rem; text-align: center; }
-        h1 { font-size: 3.5rem; letter-spacing: -2px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 4rem 2rem; }
-        .card { border: 1px solid var(--accent); padding: 2rem; transition: 0.3s; }
-        .card:hover { background: #111; }
-        .footer { padding: 4rem 2rem; border-top: 1px solid var(--accent); font-size: 0.8rem; opacity: 0.6; }
+        :root { --bg: #000; --text: #fff; --accent: #1a1a1a; --highlight: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; margin: 0; line-height: 1.6; }
+        nav { padding: 1.5rem 5%; display: flex; justify-content: space-between; border-bottom: 1px solid var(--accent); position: sticky; top: 0; background: rgba(0,0,0,0.9); z-index: 100; }
+        .hero { padding: 10rem 5% 5rem; max-width: 900px; }
+        h1 { font-size: 4rem; font-weight: 300; letter-spacing: -2px; margin-bottom: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px; background: var(--accent); border: 1px solid var(--accent); }
+        .card { background: var(--bg); padding: 3rem 2rem; transition: 0.4s; }
+        .card:hover { background: #050505; }
+        .tag { font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: #666; margin-bottom: 1rem; display: block; }
+        h2, h3 { font-weight: 400; }
+        .ontology-section { padding: 5rem 5%; background: #050505; border-bottom: 1px solid var(--accent); }
+        footer { padding: 3rem 5%; color: #444; font-size: 0.8rem; }
+        b { color: var(--highlight); }
     </style>
 </head>
 <body>
-    <nav>
-        <div style="font-weight: bold; letter-spacing: 2px;">ETHICUS</div>
-        <div>Misión | Soluciones | Contacto</div>
-    </nav>
-    <section class="hero">
-        <h1>Priorizando el factor humano en la era de la IA.</h1>
-        <p style="max-width: 600px; margin: auto; opacity: 0.8;">Implementamos soluciones de inteligencia artificial ética para resolver los desafíos más complejos de instituciones públicas y privadas.</p>
-    </section>
-    <section class="grid">
-        <div class="card">
-            <h2>Ethicus Nexus</h2>
-            <p>Nuestra infraestructura de datos diseñada para unificar la verdad operativa con integridad ética.</p>
-        </div>
-        <div class="card">
-            <h2>Ethicus Sentia</h2>
-            <p>Inteligencia decisional que asiste a las personas, no las reemplaza. Análisis profundo para decisiones críticas.</p>
-        </div>
-        <div class="card">
-            <h2>Ethicus Vigil</h2>
-            <p>El guardián de la implementación. Aseguramos que cada algoritmo cumpla con los más altos estándares de transparencia.</p>
-        </div>
-    </section>
-    <footer class="footer">
-        © 2026 Herrera Muciño | Ethicus. Todos los derechos reservados.
-    </footer>
+
+<nav>
+    <div style="font-weight: bold; letter-spacing: 3px;">ETHICUS</div>
+    <div style="font-size: 0.9rem; opacity: 0.7;">ONTOLOGÍA | SISTEMAS | ODOO</div>
+</nav>
+
+<section class="hero">
+    <span class="tag">La evolución de la toma de decisiones</span>
+    <h1>Construimos la infraestructura de la verdad operativa.</h1>
+    <p style="font-size: 1.2rem; color: #888;">En Ethicus, conectamos datos. Creamos un <b>Gemelo Digital</b> de su organización mediante una <b>Ontología</b> profunda, permitiendo que la IA actúe sobre una representación exacta de su realidad institucional.</p>
+</section>
+
+<section class="ontology-section">
+    <div style="max-width: 800px;">
+        <span class="tag">Nuestra Metodología</span>
+        <h2>Primero el ser, luego la acción.</h2>
+        <p>A diferencia de la consultoría tradicional, nuestro proceso inicia con la arquitectura de una <b>Ontología Empresarial</b>. Transformamos datos crudos en conceptos vivos (objetos, relaciones y eventos) para que la IA comprenda el contexto de su negocio antes de proponer soluciones.</p>
+    </div>
+</section>
+
+<section class="grid">
+    <!-- PRODUCTOS ESTILO PALANTIR -->
+    <div class="card">
+        <span class="tag">Producto - Data Foundations</span>
+        <h3>Ethicus Nexus</h3>
+        <p>El sistema operativo para datos modernos. Integra fuentes fragmentadas en un entorno unificado donde el <b>Gemelo Digital</b> cobra vida.</p>
+    </div>
+    <div class="card">
+        <span class="tag">Producto - Decision Intelligence</span>
+        <h3>Ethicus Sentia</h3>
+        <p>Nuestra plataforma de IA aplicada. Permite a los humanos interactuar con la ontología para simular escenarios y ejecutar decisiones complejas.</p>
+    </div>
+    <div class="card">
+        <span class="tag">Producto - Deployment Control</span>
+        <h3>Ethicus Vigil</h3>
+        <p>Gestión ética y soberanía tecnológica. Asegura que cada modelo de IA sea auditable, transparente y centrado en el beneficio humano.</p>
+    </div>
+
+    <!-- SERVICIOS ESTILO INTELLICO + ODOO -->
+    <div class="card">
+        <span class="tag">Servicio - Enterprise Resource Planning</span>
+        <h3>Implementación Odoo Core</h3>
+        <p>Potenciamos su gestión operativa mediante la implementación experta de <b>Odoo</b>, alineando el ERP con su ontología de datos para una eficiencia total.</p>
+    </div>
+    <div class="card">
+        <span class="tag">Servicio - Strategy</span>
+        <h3>Consultoría de Transformación</h3>
+        <p>Rediseñamos procesos públicos y privados bajo principios de eficiencia algorítmica y responsabilidad social.</p>
+    </div>
+    <div class="card">
+        <span class="tag">Servicio - Architecture</span>
+        <h3>Ingeniería de Gemelos Digitales</h3>
+        <p>Diseño y despliegue de modelos ontológicos que replican su operación en tiempo real para predicción de fallos y optimización de recursos.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Herrera Muciño | Ethicus - Infraestructura Ética para un Mundo Complejo.
+</footer>
+
 </body>
 </html>
